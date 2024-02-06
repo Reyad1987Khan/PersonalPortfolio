@@ -1,0 +1,152 @@
+::selection{
+    /* CSS Pseudo Element Selectors in CSS || CSS3 Bangla tutorial 036
+    https://www.youtube.com/watch?v=JIGL0Jp99vQ&t=2s */
+    color:rgb(202, 140, 5);
+}
+/* https://fonts.google.com/specimen/Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* ===========Universal Selector Start==================  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    /* https://www.youtube.com/watch?app=desktop&v=VI3QKxgHcbI */
+    scroll-behavior: smooth;
+    /* https://www.youtube.com/watch?v=bNpGHW0zLL0 */
+    font-family: 'Poppins' , sans-serif;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html{
+ /* https://www.youtube.com/watch?v=nAXQIqiRTKY&t=10s */
+ font-size: 62.5%;
+ overflow-x: hidden;
+ /* https://www.youtube.com/watch?v=InmwM7LGLb0 */
+}
+
+body{
+    background: var(--bg-color);
+    /* https://chat.openai.com/c/d37d1da0-3390-457c-9bde-fc01972ac5b3  */
+    color: var(--text-color);
+}
+/* =========== Universal Selector End ==================  */
+
+/* ================= Header Design Start ===================  */
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 2rem 9%;
+}
+/* .header.sticky {
+
+} */
+.header .logo {
+    font-size: 4.5rem;
+    /* https://www.youtube.com/watch?v=nAXQIqiRTKY&t=10s */
+    /* https://www.youtube.com/watch?v=eUuTw5rS9uw&t=616s
+    https://www.youtube.com/watch?v=VOFlgUFr57A */
+    font-weight: 600;
+    cursor: default;
+    color: var(--text-color);
+    font-family: 'Tangerine', sans-serif;
+}
+.navbar>a{
+    font-size: 1.7rem;
+    margin-left: 4rem;
+    color: var(--text-color);
+    /* https://chat.openai.com/c/dd4c9aa4-aada-4e6f-a655-abde3e586f8f */
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    /* https://boxicons.com/?query=menu */
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display:none;
+    /* https://www.youtube.com/watch?v=39yWIWuzgTM */
+}
+
+/* ================= Header Design End Time: 11:36 ===================  */
+
+/* =================BREAKPOINT START Time: 51:44 ===================== */
+/* =================Again BREAKPOINT START Time: 58:20 ===================== */
+/* Media 1  */
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/* Media 2  */
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+
+/* Media 3  */
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        /* Learn  */
+        top: 100%;
+        left:0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        /* this display: none is for Icon toggle when click on icon  */
+        display: none;
+    }
+    /* this display: none is for Icon toggle when click on icon 
+    and this 'active' class has been add dynamicaly by toggle method */
+    .navbar.active{
+        display: block;
+    }
+
+
+    .navbar>a{
+        display: block;
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+    .home {
+        
+    }
+}
+
+/* =================BREAKPOINT End Time: 51:44 ===================== */
