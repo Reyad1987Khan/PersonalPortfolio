@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindowY Document</title>
+    <link rel="stylesheet" href="./windowY.css">
+    <style>
+        .div1 {
+            background-image: url(./OtherImage/img1.png);
+            height: 800px;
+            width:100% ;
+            /* https://www.youtube.com/watch?v=KKxAM8o49cc&t=1114s  */
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .left {
+            width:45%;
+            padding: 50px;
+            margin-left: 20px;
+            box-sizing: border-box;
+            /* Learn  */
+            /* https://www.youtube.com/watch?v=9YLEBDPU03Q&t=1s  */
+            float: left;
+            text-align: justify;
+        }
+        .main1 {
+            opacity: 0;
+            /* Learn  */
+            /* https://www.youtube.com/watch?v=XOZ5fPNkB98  */
+            transition: all 1s ease-in-out ;
+              /* Learn  */
+            transform: scale(0.1);
+        }
+        .active{
+            opacity: 1;
+              /* Learn  */
+            transform: scale(1);
+        }
+        .main2 {
+            /* Learn  */
+            opacity: 0;
+            /* Learn  */
+            transition: all 1s ease-in-out ;
+              /* Learn  */
+            transform: scale(0.1);
+        }
+        .active2{
+            opacity: 1;
+              /* Learn  */
+            transform: scale(1);
+        }
+
+    </style> 
+</head>
+<body>
+    <div class="div1"></div>
+
+    <div class="main1" id="main1">
+        <div class="left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur officiis!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur
+        </div>
+        <div class="left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur officiis!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+
+    <div class="main2" id="main2">
+        <div class="left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur officiis!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur
+        </div>
+        <div class="left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur officiis!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet similique ullam iusto optio velit necessitatibus blanditiis, et porro quibusdam suscipit quidem numquam molestias eaque illo maxime accusamus error, eius, quia possimus fugit. Unde porro sapiente hic dolor nam corporis qui blanditiis. Possimus corporis doloribus quae facilis modi veritatis inventore. Inventore atque, est minus culpa iste illum, reprehenderit, cum beatae aut harum esse suscipit mollitia! Repudiandae enim minima dignissimos itaque necessitatibus unde reiciendis temporibus earum provident ab, sed dolores odio accusantium illo exercitationem ipsam laudantium minus cupiditate! Temporibus, numquam laudantium mollitia magni vitae neque reiciendis, nulla explicabo, repellat veniam tenetur
+        </div>
+    </div>
+
+    <script src="windowY.js"></script>
+</body>
+</html>
+<!-- javascript page animation bangla tutorial |part:30| page animation javascript | javascript animation  -->
+<!-- https://www.youtube.com/watch?v=qBKHtDzTu-8  -->

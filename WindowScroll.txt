@@ -1,0 +1,26 @@
+codeinnovior
+===============
+Highlighting active section menu item on scrolling | JavaScript বাংলা টিউটোরিয়াল | Project#04 | 2021
+https://www.youtube.com/watch?v=LUrwLrE10To
+
+
+JavaScript Consept Exploration 
+===============================
+1. window.scrollY
+	Answer : ChatGPT: https://chat.openai.com/c/2af94668-1b55-4d33-ae45-c67ab8ac1c03
+                          https://chat.openai.com/c/82e69f9c-7eda-459b-8b15-11b6576d8162
+	
+
+2. javascript page animation bangla tutorial |part:30| page animation javascript | javascript animation
+   learn with fiz 
+   https://www.youtube.com/watch?v=qBKHtDzTu-8
+
+
+https://www.youtube.com/watch?v=4on5_EKwkUU
+
+
+Blog
+=====
+Element size and scrolling
+================================
+https://tr.javascript.info/size-and-scroll
