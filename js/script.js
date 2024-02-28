@@ -48,25 +48,34 @@ window.onscroll = () => {
 // ==============Scroll revel  Start Time: 1:00:20=============
 // link : https://scrollrevealjs.org/ 
 
-
+// https://www.youtube.com/watch?v=v_aEkNm6xec 
+// ScrollReveal Learn Link : https://michalsnik.github.io/aos/ 
+// AOS Liabray :  https://www.youtube.com/watch?v=KOWg4MtzQOo 
+// ChatGPT : https://chat.openai.com/c/d4de608d-c65c-48d8-a6d7-b69b18d46a3e
 ScrollReveal({ 
+    // Learn 
     // reset: true,
     distance: '80px',
     duration: 2000,
+
     display: 200
  });
- ScrollReveal().reveal('.home_contend, .heading', {orgin: 'top' });
- ScrollReveal().reveal('.home-image, .service-container,portfolio-box,contact form', {orgin: 'bottom' });
+ ScrollReveal().reveal('.home_contend, .heading', {origin: 'top' });
+ ScrollReveal().reveal('.home-image, .service-container,portfolio-box,contact form', {origin: 'bottom' });
 
- ScrollReveal().reveal('.home_contend h1, .about-image', {orgin: 'left' });
- ScrollReveal().reveal('.home_contend p, .about-content', {orgin: 'right' });
+ ScrollReveal().reveal('.home_contend h1, .about-image', {origin: 'left' });
+ ScrollReveal().reveal('.home_contend p, .about-content', {origin: 'right' });
 
  // ==============Type js=============
- const typed = new Typed('multiple-text', {
-    strings: ['Frontend Developer','YouTuber','Blogger'],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop: true
- });
+//  Video Link : https://www.youtube.com/watch?v=yYp0yxlLmrQ 
+ const typed = new Typed('#text', {
+    strings: ['Frontend Developer', 
+                'YouTuber',
+                'Blogger',
+            ],
+           typeSpeed: 50,
+           backSpeed: 40,
+           backDelay: 1500,
+           loop: true,
+  });
 // ==============Scroll revel  Start Time: =============

@@ -149,6 +149,19 @@ span {
     animation: floatImage 4s ease-in-out infinite;
     
 }
+
+/* Learn  */
+/* https://www.youtube.com/watch?v=Rb3mnGYGufk  */
+
+/* other link : https://www.youtube.com/watch?v=yMOSGZY7xhg
+https://www.youtube.com/watch?v=_0zKYujvCKs 
+https://www.youtube.com/watch?app=desktop&v=H3Y0ezgprbA
+https://www.youtube.com/watch?v=W9vCEg608bs
+https://www.youtube.com/watch?v=0qb9eTEQjp4 */
+
+
+/* https://www.youtube.com/watch?v=rsmbAcO_Qyg
+https://www.youtube.com/watch?v=siXQ9-W-mWI */
 @keyframes floatImage {
     0% {
         transform: translateY(0);
@@ -510,7 +523,6 @@ The items in the container can adjust their size.*/
     }
     .navbar{
         position: absolute;
-        /* Learn  */
         top: 100%;
         left:0;
         width: 100%;

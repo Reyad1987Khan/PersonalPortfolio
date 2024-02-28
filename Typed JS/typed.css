@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#backimage{
+    background-image: url("./image/p4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+    color: #f30909;
+    font-size: 5rem; 
+    position: relative;
+    left:6rem;
+    top:20rem;
+    display: inline-block;
+}
+.spanColor {
+    color: rgb(245, 177, 7);
+}
+
+.typed-cursor {
+    color: darkgoldenrod;
+}
